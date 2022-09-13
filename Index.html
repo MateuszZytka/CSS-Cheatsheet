@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Project 2</title>
+    <link rel="stylesheet" href= "Assets/CSS.css">
+</head>
+
+<header><h1>CSS Snippet Cheatsheet </h1> 
+    <H2>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the coed for you to copy.</H2></header>
+<main> 
+    <section class="row justify-center">
+
+        <figure class="card card-column">
+            <H2 class="card-header">Flexbox Row</H2>
+            <div>
+                <p>Use these three properties to create a Flexbox row layout.</p>
+            </div>
+            <pre><code>.row {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+              }</code></pre>
+        </figure>
+
+        <figure class="card card-column">
+            <H2 class="card-header">Flexbox Column</H2>
+            <div>
+                <p>Use these three properties to create a Flexbox row layout.</p>
+            </div>
+            <pre><code>.column {
+display: flex;
+flex-direction: column;
+              }</code></pre>
+        </figure>
+
+        <figure class="card card-column">
+            <H2 class="card-header">CSS Grid Layout</H2>
+            <div>
+                <p>Build a 12-column layout using CSS Grid.</p>
+            </div>
+            <pre><code>.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(12, 1fr);
+                  }
+              }</code></pre>
+        </figure>
+
+        <figure class="card card-column">
+            <H2 class="card-header">Linear Gradients</H2>
+            <div>
+                <p>This will create a background linear gradient from top to bottom..</p>
+            </div>
+            <pre><code>.linear-gradient-background {
+  background-image: linear-gradient(
+    rgba(232, 102, 236, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+      );
+              }</code></pre>
+        </figure>
+
+        <figure class="card card-column">
+            <H2 class="card-header">Box Transition Glow</H2>
+            <div>
+                <p>Use transition and box shadows to glow on hover.</p>
+            </div>
+            <pre><code>.code-card .card-header {
+border-radius: 8px;
+transition: all 0.5s ease-in-out;
+}
+              
+.code-card:hover,
+.code-card:hover .card-header {
+box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+}</code></pre>
+        </figure>
+
+        <figure class="card card-column">
+            <H2 class="card-header">Overlay Card with Title</H2>
+            <div>
+                <p>Use position properties and negative margins to raise elements higher than their natural starting point.</p>
+            </div>
+            <pre><code>.card-header {
+                position: relative;
+                margin-top: -20px;
+              }</code></pre>
+        </figure>
+
+    </section>
+        
+</main>
